@@ -14,7 +14,7 @@
   "author": "The Jared Wilcurt",
   "license": "MIT",
   "devDependencies": {
-    "nw": "0.14.7-sdk",
+    "nw": "sdk",
     "parcel-bundler": "1.x.x"
   },
   "dependencies": {
