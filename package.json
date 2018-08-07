@@ -1,0 +1,24 @@
+{
+  "name": "parcel-nw-test",
+  "version": "1.0.0",
+  "description": "Using Parcel with NW.js test",
+  "main": "http://localhost:1234/index.html",
+  "scripts": {
+    "start": "concurrently -k --kill-others-on-fail \"parcel ./index.html --target=electron\"  \"nw .\""
+  },
+  "node-remote": "http://localhost",
+  "keywords": [
+    "bundler",
+    "desktop"
+  ],
+  "author": "The Jared Wilcurt",
+  "license": "MIT",
+  "devDependencies": {
+    "nw": "0.14.7-sdk",
+    "parcel-bundler": "1.x.x"
+  },
+  "dependencies": {
+    "concurrently": "3.x.x",
+    "fs-extra": "7.x.x"
+  }
+}
